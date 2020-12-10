@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.title {
+  font-family: 'Open Sans';
+  font-size: 32px;
+  color: white;
+}
+
+.headlineText {
+  font-family: 'Open Sans';
+  font-size: 28px;
+  color: white;
+}
+
+.discriptiveText {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color: white;
+}
+
+.linkText {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color: white;
+}
+/*# sourceMappingURL=fonts.css.map */
