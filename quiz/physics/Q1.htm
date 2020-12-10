@@ -14,22 +14,26 @@
 <body>
   
     <form action=""  class="question-container">
-        <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button">
+        <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button"
+            onclick="
+                closePage();
+                backToHomePage();
+            ">
         <p>A pure semiconductor is often referred to as</p>
         <div class="quiz-option">
-            <input type="radio" id="question">
+            <input type="radio" name="answer" id="question">
             <label for="#">Extrinsic semiconductor.</label>
         </div>
         <div class="quiz-option">
-            <input type="radio" id="question">
+            <input type="radio" name="answer" id="question">
             <label for="#">Doped semiconductor.</label>
         </div>
         <div class="quiz-option">
-            <input type="radio" id="question">
+            <input type="radio" name="answer" id="question">
             <label for="#">dispersing precipitate into colloidal solution. </label>
         </div>
         <div class="quiz-option">
-            <input type="radio" id="question">
+            <input type="radio" name="answer" id="question">
             <label for="#">None</label>
         </div>
         <div id="button-list">
@@ -40,7 +44,9 @@
 
 
             <!--next question --- button-->
-            <img src="../assets/buttons/nextButton.svg" alt="next" id="next-button" class="button test-interface-button next-right-button">
+            <a href="Q2.htm">
+                <img src="../assets/buttons/nextButton.svg" alt="next" id="next-button" class="button test-interface-button next-right-button">
+            </a>
         </div>          <!--add these buttons in all the files-->
 
 
@@ -51,5 +57,6 @@
     -->
 
     <script src="../js/preventScreenShot.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 </html>
