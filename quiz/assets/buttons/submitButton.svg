@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199" height="58" viewBox="0 0 199 58">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ff5d"/>
+      <stop offset="1" stop-color="#0091e6"/>
+    </linearGradient>
+  </defs>
+  <g id="submitButton" transform="translate(-140 -496)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="199" height="58" rx="9" transform="translate(140 496)" fill="url(#linear-gradient)"/>
+    <text id="submit" transform="translate(196 536)" fill="#fff" font-size="27" font-family="OpenSans-SemiBold, Open Sans" font-weight="600"><tspan x="0" y="0">submit</tspan></text>
+  </g>
+</svg>
