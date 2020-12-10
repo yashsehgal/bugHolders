@@ -1,0 +1,15 @@
+.header {
+  background: none;
+  overflow: hidden;
+}
+
+.header-options {
+  float: right;
+}
+
+.option {
+  float: right;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/*# sourceMappingURL=header.css.map */
