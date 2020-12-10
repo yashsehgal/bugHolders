@@ -3,32 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/themes/buttons.css">
+    <link rel="stylesheet" href="../css/themes/header.css">
+    <link rel="stylesheet" href="../css/themes/page.css">
+    <link rel="stylesheet" href="../css/themes/quiz.css">
+
     <title>Physics</title>
 </head>
 <body>
   
-    <form action="">
+    <form action=""  class="question-container">
+        <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button">
         <p>A pure semiconductor is often referred to as</p>
-        <div class="option">
+        <div class="quiz-option">
             <input type="radio" id="question">
             <label for="#">Extrinsic semiconductor.</label>
         </div>
-        <div class="option">
+        <div class="quiz-option">
             <input type="radio" id="question">
             <label for="#">Doped semiconductor.</label>
         </div>
-        <div class="option">
+        <div class="quiz-option">
             <input type="radio" id="question">
             <label for="#">dispersing precipitate into colloidal solution. </label>
         </div>
-        <div class="option">
+        <div class="quiz-option">
             <input type="radio" id="question">
             <label for="#">None</label>
         </div>
-       
+        <div id="button-list">
+            <!--submit button-->
+            <img src="../assets/buttons/submitButton.svg" alt="submit" id="submit-button" class="button test-interface-button submit-left-button">
+
+
+
+
+            <!--next question --- button-->
+            <img src="../assets/buttons/nextButton.svg" alt="next" id="next-button" class="button test-interface-button next-right-button">
+        </div>          <!--add these buttons in all the files-->
 
 
     </form>
-    
+             <!--add this script statement in all the js files,
+        this javascript code will disable the screenshot feature for this page.
+        user will not be able to perform (prt-sc) and (alt+prt-sc) operation
+    -->
+
+    <script src="../js/preventScreenShot.js"></script>
 </body>
 </html>

@@ -3,15 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chemistry</title>
+    <link rel="stylesheet" href="../css/themes/buttons.css">
+    <link rel="stylesheet" href="../css/themes/header.css">
+    <link rel="stylesheet" href="../css/themes/page.css">
+    <link rel="stylesheet" href="../css/themes/quiz.css">
+
+    <title>General-Knowledge</title>
 </head>
 <body>
   
-    <form action="">
-        
+    <form action="" class="question-container">
+        <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button">
         <p>__________the first Country to formally exit the Paris Climate Agreement (November 2020)..</p>
         <textarea name="answer" id="" cols="30" rows="10"></textarea>
+        <div id="button-list">
+            <!--submit button-->
+            <img src="../assets/buttons/submitButton.svg" alt="submit" id="submit-button" class="button test-interface-button submit-left-button">
+
+
+
+
+            <!--next question --- button-->
+            <img src="../assets/buttons/nextButton.svg" alt="next" id="next-button" class="button test-interface-button next-right-button">
+        </div>          <!--add these buttons in all the files-->
     </form>
+         <!--add this script statement in all the js files,
+        this javascript code will disable the screenshot feature for this page.
+        user will not be able to perform (prt-sc) and (alt+prt-sc) operation
+    -->
+
+    <script src="../js/preventScreenShot.js"></script>
 
 
     
