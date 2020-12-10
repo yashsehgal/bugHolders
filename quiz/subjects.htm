@@ -8,43 +8,48 @@
   <link rel="stylesheet" href="css/themes/header.css">
   <link rel="stylesheet" href="css/themes/page.css">
   <link rel="stylesheet" href="css/themes/buttons.css">
-
+  <link rel="stylesheet" href="css/themes/fonts.css">
+  <link rel="stylesheet" href="css/themes/flexcards.css">
   <!--linking main css file-->
 
   <title>Subjects</title>
 </head>
 <body>
   <div class="header">
+    <p id="scores" class="button option linkText">Scores</p>
     <div class="header-options">
-      <p id="home" class="option">Home</p>
-      <p id="subjects" class="option">Subjects</p>
-      <p id="scores" class="option">Scores</p>
+      <a href="subjects.htm">
+        <p id="subjects" class="button option linkText">Subjects</p>
+      </a>
+      <a href="/index.htm">
+        <p id="home" class="button option linkText">Home</p>
+      </a>
     </div>
   </div>
 
   <div id="subjects-section">
-    <p id="subject-title" class="">Your Subjects</p>
+    <p id="subject-title" class="title">Your Subjects</p>
 
-    <div id="subjects-list" class="">      <!--list section for listing all the subject cards-->
+    <div id="subjects-list" class="flex-container">      <!--list section for listing all the subject cards-->
       <div id="chemistry-section" class="subject-card left-subject-card">
-        <p id="chemistry" class="subjectName">Chemistry</p>
+        <p id="chemistry" class="subjectName headlineText">Chemistry</p>
         <div id="quiz-buttons">
-          <img src="assets/buttons/takeATestButton.svg" alt="start-test" id="testButton" class="button">
-          <img src="assets/buttons/readInstructionsButton.svg" alt="read-instructions" id="readButton" class="button">
+          <img src="assets/buttons/takeATestButton.svg" alt="start-test" id="testButton" class="button subjects-button">
+          <img src="assets/buttons/readInstructionsButton.svg" alt="read-instructions" id="readButton" class="button subjects-button">
         </div>
       </div>
       <div id="general-knowledge-section" class="subject-card left-subject-card">
-        <p id="general-knowledge" class="subjectName">General Knowledge</p>
+        <p id="general-knowledge" class="subjectName headlineText">General Knowledge</p>
         <div id="quiz-buttons">
-          <img src="assets/buttons/takeATestButton.svg" alt="start-test" id="testButton" class="button">
-          <img src="assets/buttons/readInstructionsButton.svg" alt="read-instructions" id="readButton" class="button">
+          <img src="assets/buttons/takeATestButton.svg" alt="start-test" id="testButton" class="button subjects-button">
+          <img src="assets/buttons/readInstructionsButton.svg" alt="read-instructions" id="readButton" class="button subjects-button">
         </div>
       </div>
       <div id="physics-section" class="subject-card right-subject-card">
-        <p id="physics" class="subjectName">Physics</p>
+        <p id="physics" class="subjectName headlineText">Physics</p>
         <div id="quiz-buttons">
-          <img src="assets/buttons/takeATestButton.svg" alt="start-test" id="testButton" class="button">
-          <img src="assets/buttons/readInstructionsButton.svg" alt="read-instructions" id="readButton" class="button">
+          <img src="assets/buttons/takeATestButton.svg" alt="start-test" id="testButton" class="button subjects-button">
+          <img src="assets/buttons/readInstructionsButton.svg" alt="read-instructions" id="readButton" class="button subjects-button">
         </div>
       </div>
     </div>

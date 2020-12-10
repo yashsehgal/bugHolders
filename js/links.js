@@ -1,0 +1,1 @@
+const githubURL = "https://www.github.com/yashsehgal/bugHolders";
