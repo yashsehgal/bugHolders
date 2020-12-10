@@ -9,37 +9,31 @@
     <link rel="stylesheet" href="../css/themes/page.css">
     <link rel="stylesheet" href="../css/themes/quiz.css">
 
-    <!--linking main css module-->
     <title>Chemistry</title>
 </head>
 <body>
   
-    <form action="" class="question-container">         <!--change this-->
+    <form action=""  class="question-container">
 
         <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button">
-        <p>Peptization is a process of</p>
-        <div class="quiz-option">                       <!--change this-->
-            <input type="radio" class="question">
-            <label for="#">precipitation of colloidal particles.</label>
+        <p>Lyophillic colloids are stable due to</p>
+        <div class="quiz-option">
+            <input type="radio" id="question">
+            <label for="#">charge on the particles.</label>
         </div>
         <div class="quiz-option">
-            <input type="radio" class="question">
-            <label for="#">purification of colloids.</label>
-        </div> 
-        <div class="quiz-option">
-            <input type="radio" class="question">
-            <label for="#">dispersing precipitate into colloidal solution. </label>
+            <input type="radio" id="question">
+            <label for="#">large size of the particles.</label>
         </div>
         <div class="quiz-option">
-            <input type="radio" class="question">
-            <label for="#">movement of colloidal particles in the electric field.</label>
-
+            <input type="radio" id="question">
+            <label for="#">small size of the particles.</label>
+        </div>
+        <div class="quiz-option">
+            <input type="radio" id="question">
+            <label for="#">layer of dispersion of medium on the particles.</label>
         </div>
 
-
-        <!-- </div>  -->
-
-       
         <div id="button-list">
             <!--submit button-->
             <img src="../assets/buttons/submitButton.svg" alt="submit" id="submit-button" class="button test-interface-button submit-left-button">
@@ -51,14 +45,14 @@
             <img src="../assets/buttons/nextButton.svg" alt="next" id="next-button" class="button test-interface-button next-right-button">
         </div>          <!--add these buttons in all the files-->
 
-    </form>
 
+    </form>
 
     <!--add this script statement in all the js files,
         this javascript code will disable the screenshot feature for this page.
         user will not be able to perform (prt-sc) and (alt+prt-sc) operation
     -->
-
     <script src="../js/preventScreenShot.js"></script>
+    
 </body>
 </html>

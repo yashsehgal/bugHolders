@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184.623" height="58" viewBox="0 0 184.623 58">
+  <g id="closeButton" transform="translate(-692 -411)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(692 411)" fill="none" stroke="#e70000" stroke-width="3">
+      <rect width="184.623" height="58" rx="9" stroke="none"/>
+      <rect x="1.5" y="1.5" width="181.623" height="55" rx="7.5" fill="none"/>
+    </g>
+    <text id="close" transform="translate(750 451)" fill="#e40000" font-size="27" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">close</tspan></text>
+  </g>
+</svg>

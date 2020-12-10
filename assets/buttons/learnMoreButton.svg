@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="58" viewBox="0 0 199 58">
+  <g id="learnMoreButton" transform="translate(-416 -496)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(416 496)" fill="none" stroke="#00e7a2" stroke-width="2">
+      <rect width="199" height="58" rx="9" stroke="none"/>
+      <rect x="1" y="1" width="197" height="56" rx="8" fill="none"/>
+    </g>
+    <text id="learn_more" data-name="learn more" transform="translate(446 536)" fill="#00e4a7" font-size="27" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">learn more</tspan></text>
+  </g>
+</svg>
