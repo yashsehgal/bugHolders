@@ -6,4 +6,22 @@
   width: 145px;
   padding-right: 2em;
 }
+
+.test-interface-button {
+  width: 120px;
+  padding-top: 3em;
+}
+
+.submit-left-button {
+  float: left;
+}
+
+.next-right-button {
+  float: right;
+}
+
+.close-button {
+  padding-bottom: 2em;
+  width: 110px;
+}
 /*# sourceMappingURL=buttons.css.map */

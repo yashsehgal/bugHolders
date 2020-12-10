@@ -3,34 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/themes/buttons.css">
+    <link rel="stylesheet" href="/css/themes/header.css">
+    <link rel="stylesheet" href="/css/themes/page.css">
+    <link rel="stylesheet" href="/css/themes/quiz.css">
+
+    <!--linking main css module-->
     <title>Chemistry</title>
 </head>
 <body>
   
-    <form action="">
+    <form action="" class="question-container">         <!--change this-->
+
+        <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button">
         <p>Peptization is a process of</p>
-        <div class="option">
-            <input type="radio" id="question">
+        <div class="quiz-option">                       <!--change this-->
+            <input type="radio" class="question">
             <label for="#">precipitation of colloidal particles.</label>
         </div>
-        <div class="option">
-            <input type="radio" id="question">
+        <div class="quiz-option">
+            <input type="radio" class="question">
             <label for="#">purification of colloids.</label>
-        </div>
-        <div class="option">
-            <input type="radio" id="question">
+        </div> 
+        <div class="quiz-option">
+            <input type="radio" class="question">
             <label for="#">dispersing precipitate into colloidal solution. </label>
         </div>
-        <div class="option">
-            <input type="radio" id="question">
+        <div class="quiz-option">
+            <input type="radio" class="question">
             <label for="#">movement of colloidal particles in the electric field.</label>
-        </div>
+        </div> 
        
         <div id="button-list">
             <!--submit button-->
-            <!--next question --- button-->
-        </div>
+            <img src="../assets/buttons/submitButton.svg" alt="submit" id="submit-button" class="button test-interface-button submit-left-button">
 
+            <!--next question --- button-->
+            <img src="../assets/buttons/nextButton.svg" alt="next" id="next-button" class="button test-interface-button next-right-button">
+        </div>          <!--add these buttons in all the files-->
     </form>
     
 </body>

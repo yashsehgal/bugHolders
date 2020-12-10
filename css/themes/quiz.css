@@ -1,0 +1,14 @@
+.question {
+  float: left;
+}
+
+.question-container {
+  background-color: white;
+  padding: 3em;
+  border-radius: 20px;
+}
+
+#button-list {
+  overflow: hidden;
+}
+/*# sourceMappingURL=quiz.css.map */
