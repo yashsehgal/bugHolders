@@ -14,8 +14,13 @@
 <body>
   
     <form action=""  class="question-container">
-
-        <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button">
+        <a href="/index.htm">
+        <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button"
+            onclick="
+                closePage();
+            ">
+        </a>
+        <!-- <img src="../assets/buttons/closeButton.svg" alt="close-test" id="close-button" class="button test-interface-button close-button"> -->
         <p>Lyophillic colloids are stable due to</p>
         <div class="quiz-option">
             <input type="radio" name="answer" id="question">
@@ -36,8 +41,10 @@
 
         <div id="button-list">
             <!--submit button-->
-            <img src="../assets/buttons/submitButton.svg" alt="submit" id="submit-button" class="button test-interface-button submit-left-button">
-
+            <!-- <img src="../assets/buttons/submitButton.svg" alt="submit" id="submit-button" class="button test-interface-button submit-left-button"> -->
+            <a href="/index.htm">
+                <img src="../assets/buttons/submitButton.svg" alt="submit" id="submit-button" class="button test-interface-button submit-left-button">
+            </a>
 
 
 
@@ -55,6 +62,6 @@
         user will not be able to perform (prt-sc) and (alt+prt-sc) operation
     -->
     <script src="../js/preventScreenShot.js"></script>
-    
+    <script src="../js/app.js"></script>
 </body>
 </html>
